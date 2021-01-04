@@ -491,5 +491,20 @@
             </reporting>
         </profile>
     </profiles>
+	
+	
+<distributionManagement>
+     <repository>
+        <id>central</id>
+        <name>JFROG-releases</name>
+        <url>http://65.0.31.206:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>JFROG-snapshots</name>
+        <url>http://65.0.31.206:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
 </project>
